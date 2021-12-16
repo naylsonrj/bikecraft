@@ -34,7 +34,7 @@
   margin-bottom: 20px;
 }
 
-.tecnologia-conteudo a {
+.tecnologia a {
   margin-bottom: 80px;
 }
 
@@ -47,12 +47,12 @@
   margin-bottom: 8px;
   width: max-content;
 }
+
 .tecnologia-vantagens img {
   width: 24px;
   margin-bottom: 8px;
 }
 
-/* responsivo */
 @media (max-width: 800px) {
   .tecnologia-bg {
     box-shadow: initial;
@@ -64,11 +64,10 @@
     padding-top: 60px;
     padding-bottom: 60px;
   }
-
   .tecnologia-imagem {
     display: none;
   }
-  .tecnologia-conteudo a {
+  .tecnologia a {
     margin-bottom: 60px;
   }
 }
